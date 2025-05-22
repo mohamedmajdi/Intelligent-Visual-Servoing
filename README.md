@@ -69,6 +69,13 @@ Across 20 qualitative test trials, the model exhibited a range of behaviors in r
 
 These results suggest that, while the model often performs the intended action, it struggles with maintaining scene consistency and avoiding the creation of extraneous objects. To address these limitations, it is recommended to increase the number of frames used during training (for example, from 5 to 10 frames) and to expose the model to a broader variety of scenarios. This approach is expected to improve both the temporal understanding and generalization ability of the model.
 
+### Summary of Qualitative Trials
+
+| Outcome                                                | Number of Trials (out of 20) |
+|--------------------------------------------------------|------------------------------|
+| Correctly reached the object                           | 11                           |
+| Reached object, but changed shape/color of surroundings| 4                            |
+| Created a new/unintended object                        | 5                            |
 
 
 
