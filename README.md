@@ -90,7 +90,7 @@ In the implementation of the Imagine2Servo framework, we began by designing the 
 
 7. To test the trained diffusion model separately, use `Inference.ipynb` . The notebook contain links to the trained models in hugging face. A number of our generated datasets that can be used to train and test the model can be found using this [link](https://drive.google.com/drive/folders/1o0uUVZ5c_OA3Kmk4iKR_xySU-Fy-7sgj?usp=sharing)
 
-8. **Fine-tune your own model**:
+8. For fine-tuning your own model:
     - **Data collection**:
       `Data Collection/IBVS_panda_arm_data_collection.py`
     - **(Optional) Shuffle the dataset**:
