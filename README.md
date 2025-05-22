@@ -3,7 +3,7 @@
 ### Contributors
   - Mohamed Magdy Atta
   - Shahid Ahamed hasib
-  - Metheus Pedrosa
+  - Mateus Pedrosa
   - Mohamed Alsisi
 ## Overview
 
