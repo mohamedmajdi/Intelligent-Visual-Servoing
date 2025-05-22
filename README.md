@@ -57,6 +57,45 @@ In the implementation of the Imagine2Servo framework, we began by designing the 
   </table>
 </p>
 
+
+
 ## How to Use
 
+1. **Clone the repository**:
+    ```
+    git clone https://github.com/mohamedmajdi/Intelligent-Visual-Servoing.git
+    cd Intelligent-Visual-Servoing
+    ```
 
+2. **Create a conda environment & install the dependencies**:
+    ```
+    conda create --name ivs --file requirements.txt
+    conda activate ivs
+    ```
+
+3. **[install NeuFlow_v2](https://github.com/neufieldrobotics/NeuFlow_v2.git)in the pipeline simulation folder**:
+
+4. If you encounter import errors like `from NeuFlow import something`, change it to `from . import something`
+  
+5. If you get GPU memory errors after stopping the simulator with `Ctrl+C`, kill the leftover process:
+      ```
+      nvidia-smi
+      ```
+      - Find the process ID (PID) and run:
+      ```
+      kill <PID>
+      ```
+
+6. **Run pipeline simulation and test models using two files**:
+      `pipeline simulation/Imagine2Servo_run_rtvs.py` and `pipeline simulation/Imagine2Servo_run_rtvs_4Objects.py`
+
+7. To test the trained diffusion model separately, use `Inference.ipynb`
+
+8. **Fine-tune your own model**:
+    - **Data collection**:
+      `Data Collection/IBVS_panda_arm_data_collection.py`
+    - **(Optional) Shuffle the dataset**:
+      `Data Collection/shuffle_jason_file.py`
+    - **Fine-tune the diffusion model**:
+      `Diffusion Fine Tuning/train_instruct_pix2pix.py`      
+      > The script is adapted to accept the dataset format generated using `Data Collection/IBVS_panda_arm_data_collection.py` . For reference on how to fine tune the model, see the [original Hugging Face training process](https://github.com/huggingface/diffusers/tree/main/examples/instruct_pix2pix).
