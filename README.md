@@ -73,7 +73,7 @@ In the implementation of the Imagine2Servo framework, we began by designing the 
     conda activate ivs
     ```
 
-3. **[install NeuFlow_v2](https://github.com/neufieldrobotics/NeuFlow_v2.git)in the pipeline simulation folder**:
+3. **[install NeuFlow_v2](https://github.com/neufieldrobotics/NeuFlow_v2.git) in the pipeline simulation folder**:
 
 4. If you encounter import errors like `from NeuFlow import something`, change it to `from . import something`
   
