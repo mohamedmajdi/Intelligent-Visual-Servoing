@@ -63,6 +63,21 @@ In the implementation of the Imagine2Servo framework, we began by designing the 
 </p>
 
 
+## Qualitative Evaluation Results
+
+Across 20 qualitative test trials, the model exhibited a range of behaviors in response to the given prompts. As shown in Table 1, the agent successfully reached the intended object in 11 out of 20 trials, demonstrating the model's core capability to interpret and act on instructions accurately. In 4 trials, the agent reached the correct object, but the model altered the shape or color of surrounding objects, indicating partial success with some visual inconsistencies. In the remaining 5 trials, the model generated a new or unintended object, reflecting a failure mode where hallucinated elements appeared in the scene.
+
+These results suggest that, while the model often performs the intended action, it struggles with maintaining scene consistency and avoiding the creation of extraneous objects. To address these limitations, it is recommended to increase the number of frames used during training (for example, from 5 to 10 frames) and to expose the model to a broader variety of scenarios. This approach is expected to improve both the temporal understanding and generalization ability of the model.
+
+### Table 1: Summary of Qualitative Trials
+
+| Outcome                                                | Number of Trials (out of 20) |
+|--------------------------------------------------------|------------------------------|
+| Correctly reached the object                           | 11                           |
+| Reached object, but changed shape/color of surroundings| 4                            |
+| Created a new/unintended object                        | 5                            |
+
+
 
 ## How to Use
 
