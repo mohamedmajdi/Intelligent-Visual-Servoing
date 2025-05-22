@@ -88,7 +88,7 @@ In the implementation of the Imagine2Servo framework, we began by designing the 
 
 6. Run pipeline simulation and test models using two files `pipeline simulation/Imagine2Servo_run_rtvs.py` and `pipeline simulation/Imagine2Servo_run_rtvs_4Objects.py`
 
-7. To test the trained diffusion model separately, use `Inference.ipynb` . The notebook contain links to the trained models in hugging face. A number of our generated datasets that can be used to train and test the model can be found using this [link](https://drive.google.com/drive/folders/1o0uUVZ5c_OA3Kmk4iKR_xySU-Fy-7sgj?usp=sharing)
+7. To test the trained diffusion model separately, use `Inference.ipynb` . The notebook contain links to the trained models in hugging face. The model that is trained for one task can be found [here](https://huggingface.co/shahidhasib586/instruct-pix2pix-model). The model that is trained for four tasks can be found [here](https://huggingface.co/Shahidhasib1014/instruct-pix2pix-custom). A number of our generated datasets that can be used to train and test the model can be found using this [link](https://drive.google.com/drive/folders/1o0uUVZ5c_OA3Kmk4iKR_xySU-Fy-7sgj?usp=sharing)
 
 8. For fine-tuning your own model:
     - **Data collection**:
