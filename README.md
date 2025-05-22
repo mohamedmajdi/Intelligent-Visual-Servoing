@@ -36,6 +36,27 @@ In the implementation of the Imagine2Servo framework, we began by designing the 
 </p>
 </div>
 
+## Results
+
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/93aa0815-77b7-4e13-9c53-4111206d6497" width="250px"/><br/>
+        <sub>Reaching red ball task - Test 1</sub>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/a11d914e-a454-476b-91d6-f3bf2a632ffa" width="250px"/><br/>
+        <sub>Reaching red ball task - Test 2</sub>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/e30a1b33-4a4f-4a6e-9588-ca68e379da69" width="250px"/><br/>
+        <sub>Reaching red ball task - Test 3</sub>
+      </td>
+    </tr>
+  </table>
+</p>
+
 ## How to Use
 
 
