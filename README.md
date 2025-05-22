@@ -75,7 +75,7 @@ In the implementation of the Imagine2Servo framework, we began by designing the 
 
 3. Install [NeuFlow_v2](https://github.com/neufieldrobotics/NeuFlow_v2.git) in the pipeline simulation folder:
 
-4. If you encounter import errors like `from NeuFlow import something`, change it to `from . import something`
+4. If you encounter NeuFlow import errors like in `from NeuFlow import something`, change it to `from . import something`
   
 5. If you get GPU memory errors after stopping the simulator with `Ctrl+C`, kill the leftover process:
       ```
