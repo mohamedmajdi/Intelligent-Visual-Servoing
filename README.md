@@ -1,10 +1,10 @@
 # Intelligent Visual Servoing with Diffusion Models
 
 ### Contributors
-  - Magdi
+  - Mohamed Magdy Atta
   - Shahid Ahamed hasib
   - Metheus Pedrosa
-  - Alsisi
+  - Mohamed Alsisi
 ## Overview
 
 It was known for a long time in the robotics field that autonomous robotic systems follows a three-steps architecture that separate the perception, planning, and control during execution. Such traditional architectures usually require a predefined goal location or image and depend on a considerable number of sensors for feedback making them limited in adaptability and scalability. For instance, in a lot of real-world scenarios, robots need to perform tasks in environments where the final goal state is unknown at deployment, or where the robot must interpret high-level instructions rather than simply matching a reference location or image. These constraints hinder the deployment of robots in unseen and dynamic environments.
