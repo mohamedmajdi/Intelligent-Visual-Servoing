@@ -61,19 +61,19 @@ In the implementation of the Imagine2Servo framework, we began by designing the 
 
 ## How to Use
 
-1. **Clone the repository**:
+1. Clone the repository:
     ```
     git clone https://github.com/mohamedmajdi/Intelligent-Visual-Servoing.git
     cd Intelligent-Visual-Servoing
     ```
 
-2. **Create a conda environment & install the dependencies**:
+2. Create a conda environment & install the dependencies:
     ```
     conda create --name ivs --file requirements.txt
     conda activate ivs
     ```
 
-3. **[install NeuFlow_v2](https://github.com/neufieldrobotics/NeuFlow_v2.git) in the pipeline simulation folder**:
+3. [install NeuFlow_v2](https://github.com/neufieldrobotics/NeuFlow_v2.git) in the pipeline simulation folder:
 
 4. If you encounter import errors like `from NeuFlow import something`, change it to `from . import something`
   
@@ -86,10 +86,9 @@ In the implementation of the Imagine2Servo framework, we began by designing the 
       kill <PID>
       ```
 
-6. **Run pipeline simulation and test models using two files**:
-      `pipeline simulation/Imagine2Servo_run_rtvs.py` and `pipeline simulation/Imagine2Servo_run_rtvs_4Objects.py`
+6. Run pipeline simulation and test models using two files `pipeline simulation/Imagine2Servo_run_rtvs.py` and `pipeline simulation/Imagine2Servo_run_rtvs_4Objects.py`
 
-7. To test the trained diffusion model separately, use `Inference.ipynb`
+7. To test the trained diffusion model separately, use `Inference.ipynb` . The notebook contain links to the trained models in hugging face. A number of our generated datasets that can be used to train and test the model can be found using this [link](https://drive.google.com/drive/folders/1o0uUVZ5c_OA3Kmk4iKR_xySU-Fy-7sgj?usp=sharing)
 
 8. **Fine-tune your own model**:
     - **Data collection**:
